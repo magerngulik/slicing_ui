@@ -1,3 +1,11 @@
 {
+  "image_assets_contrad": {
+    "prefix": "image_assets_contrad",
+    "body": "Container(\nheight: 30.0,\nwidth: 30.0,\ndecoration: const BoxDecoration(\ncolor: Colors.white,\nborderRadius: BorderRadius.all(\nRadius.circular(\n8.0,\n),\n),\n),\nchild: Container(\ndecoration: BoxDecoration(\ncolor: Colors.grey[200],\nborderRadius: BorderRadius.circular(10),\n),\nchild: FractionallySizedBox(\nwidthFactor: 0.8,\nheightFactor: 0.8,\nchild: ClipRRect(\nborderRadius: BorderRadius.circular(10),\nchild: Image.asset(\n'assets/img/google.png',\nfit: BoxFit.cover,\n),\n),\n),\n),\n),"
+  },
+  "": {
+    "prefix": "",
+    "body": ""
+  },
  
 }

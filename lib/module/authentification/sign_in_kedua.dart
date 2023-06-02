@@ -284,6 +284,7 @@ class _SignInKeduaState extends State<SignInKedua> {
                       const SizedBox(
                         width: 16.0,
                       ),
+                      //#TEMPLATE image_assets_contrad
                       Container(
                         height: 30.0,
                         width: 30.0,
@@ -313,6 +314,7 @@ class _SignInKeduaState extends State<SignInKedua> {
                           ),
                         ),
                       ),
+                      //#END
                       const SizedBox(
                         width: 30.0,
                       ),

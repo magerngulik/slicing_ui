@@ -2,7 +2,6 @@ import 'package:google_fonts/google_fonts.dart';
 // ignore_for_file: camel_case_types, prefer_typing_uninitialized_variables
 
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class SimpePopUp extends StatefulWidget {
   const SimpePopUp({Key? key}) : super(key: key);
@@ -72,7 +71,7 @@ class _SimpePopUpState extends State<SimpePopUp> {
                                             style: GoogleFonts.montserrat(
                                               textStyle: Theme.of(context)
                                                   .textTheme
-                                                  .headline4,
+                                                  .headlineMedium,
                                               fontSize: 15,
                                               fontWeight: FontWeight.bold,
                                             ),

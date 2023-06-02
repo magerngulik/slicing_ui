@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 
 class CarouselScreen extends StatefulWidget {
+  const CarouselScreen({super.key});
+
   @override
   _CarouselScreenState createState() => _CarouselScreenState();
 }
 
 class _CarouselScreenState extends State<CarouselScreen> {
-  CarouselController _carouselController = CarouselController();
+  final CarouselController _carouselController = CarouselController();
 
   void moveToIndex(int index) {
     _carouselController.animateToPage(index);
@@ -23,7 +25,7 @@ class _CarouselScreenState extends State<CarouselScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Carousel Example'),
+        title: const Text('Carousel Example'),
       ),
       body: Column(
         children: [
@@ -45,8 +47,8 @@ class _CarouselScreenState extends State<CarouselScreen> {
                   enableInfiniteScroll: true,
                   reverse: false,
                   autoPlay: true,
-                  autoPlayInterval: Duration(seconds: 3),
-                  autoPlayAnimationDuration: Duration(milliseconds: 800),
+                  autoPlayInterval: const Duration(seconds: 3),
+                  autoPlayAnimationDuration: const Duration(milliseconds: 800),
                   autoPlayCurve: Curves.easeIn,
                   enlargeCenterPage: true,
                   onPageChanged: (index, reason) {},
@@ -90,7 +92,7 @@ class _CarouselScreenState extends State<CarouselScreen> {
                               margin: const EdgeInsets.only(
                                 left: 10.0,
                               ),
-                              decoration: BoxDecoration(
+                              decoration: const BoxDecoration(
                                 color: Colors.grey,
                               ),
                             ))),

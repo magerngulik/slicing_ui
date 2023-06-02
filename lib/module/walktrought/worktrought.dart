@@ -1,6 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:google_fonts/google_fonts.dart';
+
 import 'package:flutter/material.dart';
 
 class WalkTrought extends StatefulWidget {
@@ -11,7 +11,7 @@ class WalkTrought extends StatefulWidget {
 }
 
 class _WalkTroughtState extends State<WalkTrought> {
-  CarouselController _carouselController = CarouselController();
+  final CarouselController _carouselController = CarouselController();
   void moveToIndex(int index) {
     _carouselController.animateToPage(index);
   }
@@ -61,8 +61,8 @@ class _WalkTroughtState extends State<WalkTrought> {
                 enableInfiniteScroll: true,
                 reverse: false,
                 autoPlay: false,
-                autoPlayInterval: Duration(seconds: 3),
-                autoPlayAnimationDuration: Duration(milliseconds: 800),
+                autoPlayInterval: const Duration(seconds: 3),
+                autoPlayAnimationDuration: const Duration(milliseconds: 800),
                 autoPlayCurve: Curves.easeIn,
                 enlargeCenterPage: true,
                 onPageChanged: (index, reason) {},
@@ -150,14 +150,14 @@ class _WalkTroughtState extends State<WalkTrought> {
             const SizedBox(
               height: 70.0,
             ),
-            Spacer(),
+            const Spacer(),
             Container(
               height: 48,
               margin: const EdgeInsets.all(20.0),
               width: MediaQuery.of(context).size.width,
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Color(0xff22A45D),
+                  backgroundColor: const Color(0xff22A45D),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12),
                   ),
