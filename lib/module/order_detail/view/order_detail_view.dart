@@ -18,13 +18,14 @@ class OrderDetailView extends StatefulWidget {
       ),
       body: Container(
         padding: const EdgeInsets.all(20.0),
-        child: Column(
+        child: ListView(
           children: [
             const SizedBox(
               height: 21.0,
             ),
             SizedBox(
               height: 337,
+              width: MediaQuery.of(context).size.width,
               child: ListView.builder(
                 itemCount: 10,
                 shrinkWrap: true,
@@ -187,6 +188,9 @@ class OrderDetailView extends StatefulWidget {
                   size: 14.0,
                 ),
               ],
+            ),
+            const SizedBox(
+              height: 20.0,
             ),
             const Spacer(),
             SizedBox(
