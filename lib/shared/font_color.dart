@@ -1,0 +1,21 @@
+import 'package:flutter/material.dart';
+
+var primary = const Color(0xffF87146);
+var secondary = const Color(0xff332C45);
+var error = const Color(0xffE53935);
+var success = const Color(0xff3D843C);
+var warning = const Color(0xffFACC15);
+var dark = Colors.black;
+var white = Colors.white;
+var beigeColored = const Color(0xffFFF9EB);
+var grey = const Color(0xffF2F2F2);
+var grey10 = const Color(0xffFDFDFD);
+var grey20 = const Color(0xffECF1F6);
+var grey30 = const Color(0xffE3E9ED);
+var grey40 = const Color(0xffD1D8DD);
+var grey50 = const Color(0xffBFC6CC);
+var grey60 = const Color(0xff9CA4AB);
+var grey70 = const Color(0xff78828A);
+var grey80 = const Color(0xff66707A);
+var grey90 = const Color(0xff434E58);
+var grey100 = const Color(0xff171725);

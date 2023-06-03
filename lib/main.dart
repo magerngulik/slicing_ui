@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
             titleSmall: GoogleFonts.montserrat(
                 fontSize: 16, fontWeight: FontWeight.w400),
           )),
-      home: const OrderDetailView(),
+      home: const HomeNavigationView(),
     );
   }
 }
