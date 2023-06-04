@@ -23,6 +23,16 @@ class HomeNavigationController extends State<HomeNavigationView>
       "name": "On Bording",
       "onTap": const OnbordingLoginPageYummyView(),
       "icon": Icons.developer_board,
-    }
+    },
+    {
+      "name": "First On Bording ",
+      "onTap": const OnbordingPageYummyView(),
+      "icon": Icons.developer_board,
+    },
+    {
+      "name": "Sign In",
+      "onTap": const SignInPageYummyView(),
+      "icon": Icons.developer_board,
+    },
   ];
 }
