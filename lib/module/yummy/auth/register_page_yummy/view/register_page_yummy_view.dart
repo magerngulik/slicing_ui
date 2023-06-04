@@ -268,6 +268,9 @@ class RegisterPageYummyView extends StatefulWidget {
                     ),
                   )),
             ),
+            const SizedBox(
+              height: 20.0,
+            ),
             Row(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
