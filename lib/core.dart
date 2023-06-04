@@ -31,6 +31,8 @@ export 'package:slicing/module/profile/profile_setting.dart';
 export 'package:slicing/module/profile/profile_setting_kedua.dart';
 export 'package:slicing/module/refer to friend/refer.dart';
 export 'package:slicing/module/social media/add_social_media.dart';
+export 'package:slicing/module/testing/controller/testing_controller.dart';
+export 'package:slicing/module/testing/view/testing_view.dart';
 export 'package:slicing/module/verication.dart';
 export 'package:slicing/module/walktrought/worktrought.dart';
 export 'package:slicing/module/your_order/controller/your_order_controller.dart';

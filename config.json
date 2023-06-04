@@ -3,6 +3,7 @@
     "modules": [
         "browse_food",
         "your_order",
-        "order_detail"
+        "order_detail",
+        "testing"
     ]
 }
