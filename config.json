@@ -7,6 +7,7 @@
         "home_navigation",
         "yummy/auth/onbording_page_yummy",
         "yummy/auth/onbording_login_page_yummy",
-        "yummy/auth/sign_in_page_yummy"
+        "yummy/auth/sign_in_page_yummy",
+        "yummy/auth/register_page_yummy"
     ]
 }

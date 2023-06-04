@@ -34,5 +34,15 @@ class HomeNavigationController extends State<HomeNavigationView>
       "onTap": const SignInPageYummyView(),
       "icon": Icons.developer_board,
     },
+    {
+      "name": "Sign In Kedua",
+      "onTap": const TestingView(),
+      "icon": Icons.developer_board,
+    },
+    {
+      "name": "Register",
+      "onTap": const RegisterPageYummyView(),
+      "icon": Icons.developer_board,
+    },
   ];
 }

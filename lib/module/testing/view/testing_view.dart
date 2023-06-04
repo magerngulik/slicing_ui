@@ -103,7 +103,7 @@ class TestingView extends StatefulWidget {
                           ),
                           filled: true,
                           fillColor: Colors.white,
-                          hintText: "Enter your phone number",
+                          hintText: "Enter your password",
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(10),
                           ),
@@ -149,6 +149,10 @@ class TestingView extends StatefulWidget {
                     ),
                   ),
                 ),
+                const SizedBox(
+                  height: 32.0,
+                ),
+                //#TEMPLATE button_social_media
                 Row(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
@@ -310,12 +314,15 @@ class TestingView extends StatefulWidget {
                         const SizedBox(
                           width: 21.0,
                         ),
-                        const Text(
-                          "Continue with GoogleApple",
-                          style: TextStyle(
-                            fontSize: 16.0,
-                            color: Colors.white,
-                            fontWeight: FontWeight.w600,
+                        const Expanded(
+                          child: Text(
+                            "Continue with GoogleApple",
+                            overflow: TextOverflow.ellipsis,
+                            style: TextStyle(
+                              fontSize: 16.0,
+                              color: Colors.white,
+                              fontWeight: FontWeight.w600,
+                            ),
                           ),
                         ),
                       ],
@@ -343,6 +350,7 @@ class TestingView extends StatefulWidget {
                     )
                   ],
                 ),
+                //#END
               ],
             ),
           ),

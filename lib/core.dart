@@ -43,6 +43,8 @@ export 'package:slicing/module/yummy/auth/onbording_login_page_yummy/controller/
 export 'package:slicing/module/yummy/auth/onbording_login_page_yummy/view/onbording_login_page_yummy_view.dart';
 export 'package:slicing/module/yummy/auth/onbording_page_yummy/controller/onbording_page_yummy_controller.dart';
 export 'package:slicing/module/yummy/auth/onbording_page_yummy/view/onbording_page_yummy_view.dart';
+export 'package:slicing/module/yummy/auth/register_page_yummy/controller/register_page_yummy_controller.dart';
+export 'package:slicing/module/yummy/auth/register_page_yummy/view/register_page_yummy_view.dart';
 export 'package:slicing/module/yummy/auth/sign_in_page_yummy/controller/sign_in_page_yummy_controller.dart';
 export 'package:slicing/module/yummy/auth/sign_in_page_yummy/view/sign_in_page_yummy_view.dart';
 export 'package:slicing/shared/font_color.dart';
