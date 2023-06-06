@@ -20,10 +20,15 @@ class SignInPageYummyView extends StatefulWidget {
         ),
         actions: const [],
         centerTitle: true,
-        leading: Icon(
-          Icons.arrow_back_ios,
-          size: 24.0,
-          color: grey90,
+        leading: InkWell(
+          onTap: () {
+            Navigator.pop(context);
+          },
+          child: Icon(
+            Icons.arrow_back_ios,
+            size: 24.0,
+            color: grey90,
+          ),
         ),
       ),
       body: SingleChildScrollView(

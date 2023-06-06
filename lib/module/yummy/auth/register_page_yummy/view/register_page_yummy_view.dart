@@ -19,6 +19,15 @@ class RegisterPageYummyView extends StatefulWidget {
         ),
         centerTitle: true,
         actions: const [],
+        leading: InkWell(
+          onTap: () {
+            Navigator.pop(context);
+          },
+          child: const Icon(
+            Icons.arrow_back_ios,
+            size: 24.0,
+          ),
+        ),
       ),
       body: Container(
         padding: const EdgeInsets.all(24.0),

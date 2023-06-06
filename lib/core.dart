@@ -39,6 +39,8 @@ export 'package:slicing/module/verication.dart';
 export 'package:slicing/module/walktrought/worktrought.dart';
 export 'package:slicing/module/your_order/controller/your_order_controller.dart';
 export 'package:slicing/module/your_order/view/your_order_view.dart';
+export 'package:slicing/module/yummy/auth/home_page_yummy/controller/home_page_yummy_controller.dart';
+export 'package:slicing/module/yummy/auth/home_page_yummy/view/home_page_yummy_view.dart';
 export 'package:slicing/module/yummy/auth/onbording_login_page_yummy/controller/onbording_login_page_yummy_controller.dart';
 export 'package:slicing/module/yummy/auth/onbording_login_page_yummy/view/onbording_login_page_yummy_view.dart';
 export 'package:slicing/module/yummy/auth/onbording_page_yummy/controller/onbording_page_yummy_controller.dart';

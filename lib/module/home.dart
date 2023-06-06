@@ -152,7 +152,7 @@ class _HomeScreensState extends State<HomeScreens> {
                       onPressed: () {},
                       child: const Text(
                         "SIGN IN",
-                        style: const TextStyle(
+                        style: TextStyle(
                           color: Colors.white,
                         ),
                       ),

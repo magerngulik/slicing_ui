@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class VerificationCodeScreen extends StatefulWidget {
+  const VerificationCodeScreen({super.key});
+
   @override
   _VerificationCodeScreenState createState() => _VerificationCodeScreenState();
 }
@@ -82,13 +84,13 @@ class _VerificationCodeScreenState extends State<VerificationCodeScreen> {
                     hintText: "Search",
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(10),
-                        borderSide: BorderSide(color: Colors.green)),
+                        borderSide: const BorderSide(color: Colors.green)),
                     enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(10),
-                        borderSide: BorderSide(color: Colors.green)),
+                        borderSide: const BorderSide(color: Colors.green)),
                     focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(10),
-                        borderSide: BorderSide(color: Colors.red))),
+                        borderSide: const BorderSide(color: Colors.red))),
                 onChanged: (value) {},
               ),
             ),
@@ -100,7 +102,7 @@ class _VerificationCodeScreenState extends State<VerificationCodeScreen> {
 }
 
 void main() {
-  runApp(MaterialApp(
+  runApp(const MaterialApp(
     home: VerificationCodeScreen(),
   ));
 }

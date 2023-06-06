@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class TopAlertDialogScreen extends StatefulWidget {
+  const TopAlertDialogScreen({super.key});
+
   @override
   _TopAlertDialogScreenState createState() => _TopAlertDialogScreenState();
 }
@@ -19,8 +21,8 @@ class _TopAlertDialogScreenState extends State<TopAlertDialogScreen> {
             elevation: 4.0,
             borderRadius: BorderRadius.circular(8.0),
             child: Container(
-              padding: EdgeInsets.all(16.0),
-              child: Column(
+              padding: const EdgeInsets.all(16.0),
+              child: const Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
@@ -51,17 +53,17 @@ class _TopAlertDialogScreenState extends State<TopAlertDialogScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Top Alert Dialog'),
+        title: const Text('Top Alert Dialog'),
       ),
       body: Center(
         child: ElevatedButton(
           onPressed: () {
             _showTopAlertDialog(context);
-            Future.delayed(Duration(seconds: 3), () {
+            Future.delayed(const Duration(seconds: 3), () {
               _hideTopAlertDialog();
             });
           },
-          child: Text('Show Top Alert Dialog'),
+          child: const Text('Show Top Alert Dialog'),
         ),
       ),
     );
