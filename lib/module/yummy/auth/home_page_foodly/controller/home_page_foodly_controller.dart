@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:slicing/state_util.dart';
-import '../view/home_page_yummy_view.dart';
+import '../view/home_page_foodly_view.dart';
 
-class HomePageYummyController extends State<HomePageYummyView>
+class HomePageFoodlyController extends State<HomePageFoodlyView>
     implements MvcController {
-  static late HomePageYummyController instance;
-  late HomePageYummyView view;
+  static late HomePageFoodlyController instance;
+  late HomePageFoodlyView view;
 
   @override
   void initState() {

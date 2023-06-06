@@ -49,5 +49,10 @@ class HomeNavigationController extends State<HomeNavigationView>
       "onTap": const HomePageYummyView(),
       "icon": Icons.home,
     },
+    {
+      "name": "Home Page 2",
+      "onTap": const HomePageFoodlyView(),
+      "icon": Icons.home,
+    },
   ];
 }

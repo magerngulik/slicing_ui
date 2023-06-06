@@ -9,6 +9,7 @@
         "yummy/auth/onbording_login_page_yummy",
         "yummy/auth/sign_in_page_yummy",
         "yummy/auth/register_page_yummy",
-        "yummy/auth/home_page_yummy"
+        "yummy/auth/home_page_yummy",
+        "yummy/auth/home_page_foodly"
     ]
 }
