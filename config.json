@@ -10,6 +10,7 @@
         "yummy/auth/sign_in_page_yummy",
         "yummy/auth/register_page_yummy",
         "yummy/auth/home_page_yummy",
-        "yummy/auth/home_page_foodly"
+        "yummy/auth/home_page_foodly",
+        "foodly/dashboard"
     ]
 }

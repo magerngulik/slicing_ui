@@ -54,5 +54,10 @@ class HomeNavigationController extends State<HomeNavigationView>
       "onTap": const HomePageFoodlyView(),
       "icon": Icons.home,
     },
+    {
+      "name": "Home Page Foodly",
+      "onTap": const DashboardView(),
+      "icon": Icons.home_max,
+    },
   ];
 }

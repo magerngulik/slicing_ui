@@ -16,6 +16,8 @@ export 'package:slicing/module/authentification/verification_number.dart';
 export 'package:slicing/module/browse_food/controller/browse_food_controller.dart';
 export 'package:slicing/module/browse_food/view/browse_food_view.dart';
 export 'package:slicing/module/courosal_slide.dart';
+export 'package:slicing/module/foodly/dashboard/controller/dashboard_controller.dart';
+export 'package:slicing/module/foodly/dashboard/view/dashboard_view.dart';
 export 'package:slicing/module/home/search_page.dart';
 export 'package:slicing/module/home/search_page_kedua.dart';
 export 'package:slicing/module/home.dart';

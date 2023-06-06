@@ -89,7 +89,6 @@ class _PaymentLocationState extends State<PaymentLocation> {
                 padding: EdgeInsets.zero,
                 clipBehavior: Clip.none,
                 itemBuilder: (context, index) {
-                  var item = {};
                   return Container(
                     margin: const EdgeInsets.only(
                       bottom: 18.0,
